@@ -91,7 +91,7 @@ if __name__ == "__main__":
         read()      
     elif sys.argv[1] == 'create':    
         create(sys.argv[2], sys.argv[3])
-    elif sys.argv[1] == 'create_column':
+    elif sys.argv[1] == 'create_list':
         create_list(sys.argv[2])    
     elif sys.argv[1] == 'move':    
         move(sys.argv[2], sys.argv[3]) 
